@@ -5,11 +5,4 @@
   line-height: 1;
   letter-spacing: 0.105em;
   text-transform: uppercase;
-  margin-top: 97px; 
-}
-
-@media screen and (min-width: 630px) and (max-width: 1024px) {
-    .lead__title {
-     margin-top: 60px; 
-    }
 }

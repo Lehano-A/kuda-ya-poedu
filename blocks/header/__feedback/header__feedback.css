@@ -1,3 +1,9 @@
 .header__feedback {
-    margin-right: 0;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 408px) {
+    .header__feedback {
+      padding-top: 20px;
+    }
 }
