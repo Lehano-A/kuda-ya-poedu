@@ -1,0 +1,9 @@
+.lead__title {
+  margin: 0;
+  color: #FECFAA;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 1;
+  letter-spacing: 0.105em;
+  text-transform: uppercase;
+}

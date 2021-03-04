@@ -1,0 +1,5 @@
+.lead__text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 97px;
+}
