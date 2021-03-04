@@ -6,8 +6,8 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 405px) {
   .header__link {
-    font-size: 11px;
+    font-size: 10px;
   }
 }
