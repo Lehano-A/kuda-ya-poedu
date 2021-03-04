@@ -1,0 +1,13 @@
+.lead__plane {
+  margin: 0;
+  max-width: 305px;
+  max-height: 305px;
+  padding-right: 80px;
+}
+  
+@media screen and (max-width: 767px) {
+  .lead__plane {
+    padding-top: 15px;
+    padding-right: 0;
+  }
+}

@@ -1,3 +1,10 @@
 .header__list {
+  padding: 0;
   padding-right: 34px;
+}
+
+@media screen and (max-width: 425px) {
+  .header__list {
+    padding-right: 15px;
+  }
 }

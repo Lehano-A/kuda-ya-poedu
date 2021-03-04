@@ -5,3 +5,9 @@
   line-height: 1.2;
   font-weight: bold;
 }
+
+@media screen and (max-width: 425px) {
+  .header__link {
+    font-size: 11px;
+  }
+}
