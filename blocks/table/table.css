@@ -2,6 +2,11 @@
   margin: auto;
   max-width: 90%;
   display: flex;
-  padding-top: 110px;
   flex-direction: column;
+}
+
+@media screen and (max-width: 550px) {
+  .table {
+    max-width: 190px
+  }
 }

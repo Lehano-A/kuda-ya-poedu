@@ -3,8 +3,6 @@
   padding-right: 34px;
 }
 
-
-
 @media screen and (max-width: 405px) {
   .header__list {
     padding-right: 15px;
