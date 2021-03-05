@@ -12,3 +12,7 @@
     font-size: 25px;
   }
 }
+
+.footer__copyright::before {
+  content: &copy;
+}
