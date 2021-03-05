@@ -2,15 +2,13 @@
     max-width: 307px;
     margin-bottom: 17px;
     border: none;
-    padding: 0;
     height: 27px;
     font-family: Arial;
     font-weight: 400;
     font-size: 13px;
     line-height: 1.15;
     font-style: normal;
-    padding-left: 14px;
-    padding-right: 14px;
+    padding: 0 14px;
 }
 
 .form__input:focus {
@@ -65,6 +63,7 @@
     line-height: 1.15;
     font-style: normal;
     color: #000;
+
 }
 
 .form__input:focus::-moz-input-placeholder {
