@@ -1,0 +1,11 @@
+.form__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 307px;
+}
+
+@media screen and (max-width: 669px) {
+    .form__form {
+        min-width: 100%;
+    }
+}

@@ -1,0 +1,90 @@
+.form__textarea {
+    max-width: 307px;
+    min-height: 89px;
+    max-height: 187px;
+    height: 89px;
+    padding: 8px 14px 0 14px;
+    border: none;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.15;
+    font-style: normal;
+    resize: none;
+}
+
+.form__textarea:focus {
+    outline: none;
+    border: none;
+}
+
+.form__textarea::placeholder {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.15;
+    font-style: normal;
+    color: #000;
+}
+
+.form__textarea:focus::placeholder {
+    color: transparent;
+}
+
+.form__textarea::-ms-input-placeholder {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.15;
+    font-style: normal;
+    color: #000;
+}
+
+.form__textarea:focus::-ms-input-placeholder {
+    color: transparent;
+}
+
+.form__textarea::-webkit-input-placeholder {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.15;
+    font-style: normal;
+    color: #000;
+}
+
+.form__textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form__textarea::-moz-input-placeholder {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.15;
+    font-style: normal;
+    color: #000;
+}
+
+.form__textarea:focus::-moz-input-placeholder {
+    color: transparent;
+}
+
+.form__textarea::-o-input-placeholder {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.15;
+    font-style: normal;
+    color: #000;
+}
+
+.form__textarea:focus::-o-input-placeholder {
+    color: transparent;
+}
+
+@media screen and (max-width: 669px) {
+    .form__textarea {
+      max-width: 610px;
+    }
+}

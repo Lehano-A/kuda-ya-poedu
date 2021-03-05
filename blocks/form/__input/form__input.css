@@ -1,0 +1,91 @@
+.form__input {
+    max-width: 307px;
+    margin-bottom: 17px;
+    border: none;
+    padding: 0;
+    height: 27px;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.15;
+    font-style: normal;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.form__input:focus {
+    outline: none;
+    border: none;
+    padding-left: 14px;
+}
+
+.form__input::placeholder {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.15;
+    font-style: normal;
+    color: #000;
+}
+
+.form__input:focus::placeholder {
+    color: transparent;
+}
+
+.form__input::-ms-input-placeholder {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.15;
+    font-style: normal;
+    color: #000;
+}
+
+.form__input:focus::-ms-input-placeholder {
+    color: transparent;
+}
+
+.form__input::-webkit-input-placeholder {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.15;
+    font-style: normal;
+    color: #000;
+}
+
+.form__input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form__input::-moz-input-placeholder {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.15;
+    font-style: normal;
+    color: #000;
+}
+
+.form__input:focus::-moz-input-placeholder {
+    color: transparent;
+}
+
+.form__input::-o-input-placeholder {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.15;
+    font-style: normal;
+    color: #000;
+}
+
+.form__input:focus::-o-input-placeholder {
+    color: transparent;
+}
+
+@media screen and (max-width: 669px) {
+    .form__input {
+      max-width: 610px;
+    }
+}

@@ -34,6 +34,18 @@
 @import url(../blocks/table/__text/table__text.css);
 @import url(../blocks/table/__title/table__title.css);
 @import url(../blocks/table/__subtitle/table__subtitle.css);
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__grid/form__grid.css);
+@import url(../blocks/form/__box-title-form/form__box-title-form.css);
+@import url(../blocks/form/__form/form__form.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__button/form__button.css);
+@import url(../blocks/form/__textarea/form__textarea.css);
+@import url(../blocks/form/__title/form__title.css);
+@import url(../blocks/form/__/form__input.css);
+@import url(../blocks/form/__image/form__image.css);
+
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframe/video__iframe.css);
 @import url(../blocks/video/__text/video__text.css);
