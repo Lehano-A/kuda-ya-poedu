@@ -1,0 +1,11 @@
+.place__box-text {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 669px) {
+    .place__box-text {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
