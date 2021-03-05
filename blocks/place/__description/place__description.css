@@ -1,0 +1,13 @@
+.place__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 76px;
+}
+
+@media screen and (max-width: 669px) {
+    .place__description {
+        align-items: center;
+        
+    }
+}

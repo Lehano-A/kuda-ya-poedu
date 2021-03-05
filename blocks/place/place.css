@@ -1,0 +1,25 @@
+.place {
+    display: grid;
+    grid-template-columns: repeat(2, 555px);
+    grid-template-rows: 463px;
+    background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 1126px) {
+    .place {
+        grid-template-columns: repeat(2, minmax(450px, 555px));
+    }
+}
+
+@media screen and (max-width: 916px) {
+    .place {
+        grid-template-columns: repeat(2, minmax(300px, 450px));
+        grid-template-rows: 350px;
+    }
+}
+
+@media screen and (max-width: 669px) {
+    .place {
+        grid-template-columns: minmax(150px, 669px);
+    }
+}
