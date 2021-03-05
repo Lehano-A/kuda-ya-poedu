@@ -15,5 +15,7 @@
 @media screen and (max-width: 550px) {
   .table__cell {
     padding-bottom: 80px;
+    padding-right: 0;
+    margin: 0 auto;
   }
 }
